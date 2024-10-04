@@ -1,4 +1,4 @@
-# Zen Cuonter
+# Zen Counter
 
 A simple counter website which allows you to count up, down and reset.
 

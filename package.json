@@ -1,5 +1,5 @@
 {
-  "homepage": "https://<username>.github.io/zen-counter",
+  "homepage": "https://OmBiradar.github.io/zen-counter",
   "name": "zen-counter",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
