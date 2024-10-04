@@ -1,0 +1,59 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Zen-like App Styling */
+.app {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.counter {
+  font-size: 6rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+/* Button Styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
